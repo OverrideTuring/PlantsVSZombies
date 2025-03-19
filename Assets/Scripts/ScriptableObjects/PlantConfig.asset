@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231581bf120db94c92bccc6cd3e0492, type: 3}
+  m_Name: PlantConfig
+  m_EditorClassIdentifier: 
+  plantDataList:
+  - plantType: 0
+    cardPrefab: {fileID: 3716474558481888064, guid: 27d837ead7c1abf48b1cc31a4805b62b, type: 3}
+    plantPrefab: {fileID: 464707207915446075, guid: 8d55e4ee251aee14b8a8926ed73acb94, type: 3}
+    plantName: Sunflower
+    description: 
+  - plantType: 1
+    cardPrefab: {fileID: 2451632001894982592, guid: 52c909b8a37fa1d4db623c848c90a4c2, type: 3}
+    plantPrefab: {fileID: 4169274049078917804, guid: f2ab28e9b136d434cb08d664cdf3ebe7, type: 3}
+    plantName: Peashooter
+    description: 
+  - plantType: 2
+    cardPrefab: {fileID: 3785073551866144728, guid: d17cef56f44a5594baefd706e9ceb63a, type: 3}
+    plantPrefab: {fileID: 0}
+    plantName: Cherry Bomb
+    description: Blows up all zombies in an area
+  - plantType: 3
+    cardPrefab: {fileID: 2479946131727814291, guid: a04e93b298f46634eae40d019b92048b, type: 3}
+    plantPrefab: {fileID: 4666107748599566564, guid: 8292b92b5a4077e448f5f46be67cff69, type: 3}
+    plantName: Wall-nut
+    description: Blocks off zombies and protect your other plants
